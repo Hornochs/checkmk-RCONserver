@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#pip install rHLDS
 from rHLDS import Console
 import re
 checkname = "Ricochet"
