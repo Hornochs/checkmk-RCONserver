@@ -18,4 +18,4 @@ m = p.search(out)
 serverstats=m.group()
 players = re.findall(r'\d+', serverstats)
 #Print line for CheckMK
-print('P {} Spieler= {};{};{};{};{} {} {} von {} Spieler auf dem Server'.format(checkname, str(players[0]), str(int(players[2])-2), str(players[2]), 0, str(players[2]), checkname, str(players[0]), str(players[2])))
+print('P {} Spieler={};{};{};{};{} {} {} von {} Spieler auf dem Server'.format(checkname, str(players[0]), str(int(players[2])-2), str(players[2]), 0, str(players[2]), checkname, str(players[0]), str(players[2])))
