@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from rHLDS import Console
 import re
 checkname = "Ricochet"
