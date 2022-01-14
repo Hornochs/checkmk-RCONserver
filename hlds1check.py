@@ -28,4 +28,4 @@ try:
     srv.disconnect()
 
 except Exception as e:
-    print('2 {} Server nicht erreichbar!'.format(checkname))
+    print('2 {} - Server nicht erreichbar!'.format(checkname))
