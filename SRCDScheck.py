@@ -18,4 +18,4 @@ try:
     players = re.findall(r'\d+', serverstats)
     print('P {} Spieler={};{};{};{};{} {} {} von {} Spieler auf dem Server'.format(checkname, str(players[0]), str(int(players[2])-2), str(players[2]), 0, str(players[2]), checkname, str(players[0]), str(players[2])))
 except Exception as e:
-    print('2 {} Server nicht erreichbar!'.format(checkname))
+    print('2 {} - Server nicht erreichbar!'.format(checkname))
